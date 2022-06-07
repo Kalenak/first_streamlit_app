@@ -19,5 +19,3 @@ streamlit.multiselect("Pick a few fruits:", list(my_fruit_list.index), ['Banana'
 
 #display the table on the page
 streamlit.dataframe(my_fruit_list)
-
-import snowflake.connector
